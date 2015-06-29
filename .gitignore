@@ -6,3 +6,20 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
+
+*.iml
+*/*.iml
+
+# IDE noise #
+.idea/
+
+# Other noise
+*~
+*.bak
+*.el
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
