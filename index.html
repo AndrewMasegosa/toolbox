@@ -33,15 +33,15 @@
 
 <p>Analysis of data streams using expressive and flexible Bayesian networks</p>
 
-<p>This is the repository for the open source code in the amidst project. </p>
+<p>This is the repository for the open source code in the AMIDST project.</p>
 
-<p>Install Java 8 and IntelliJ</p>
+<p>Install Java 8 and IntelliJ:</p>
 
 <p><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a></p>
 
 <p><a href="http://www.jetbrains.com/idea/download/">http://www.jetbrains.com/idea/download/</a></p>
 
-<p>In IntelliJ open maven project and point to the pom file. Also you need to point to the Java 8 installation and you ready to rock.</p>
+<p>In IntelliJ open the maven project by pointint at the pom file. Also you need to point to the Java 8 installation and you are ready to rock.</p>
 
 <h1>
 <a id="compiling--running-from-the-command-line" class="anchor" href="#compiling--running-from-the-command-line" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compiling &amp; Running from the command line</h1>
@@ -49,9 +49,9 @@
 <p>1- Install Maven: <a href="http://maven.apache.org/download.cgi">http://maven.apache.org/download.cgi</a>
 (Download binaries and copy to Applications folder)</p>
 
-<p>2- Modify the file maven_startup.sh (which you find it in the root project folder) and fix the path of your maven (Line 5) and java installation (Line 9).</p>
+<p>2- Modify the file maven_startup.sh (which you can find in the root project folder) and fix the path of your maven (Line 5) and java installation (Line 9).</p>
 
-<p>3- Create (or modify if already exist) a file ".profile" or ".bash_profile" in you home directory and add the following line,
+<p>3- Create (or modify if already exists) a file ".profile" or ".bash_profile" in you home directory and add the following line,
 which points to file "maven_startup.sh"</p>
 
 <pre><code>    source &lt;project-folder&gt;/maven_startup.sh
@@ -59,9 +59,9 @@ which points to file "maven_startup.sh"</p>
 
 <p>Now after restarting the terminal, mvn should work.</p>
 
-<p>4- The script "compile.sh" (which you find it in the root project folder) just compile the whole project and create a .jar file in the ./target folder.</p>
+<p>4- The script "compile.sh" (which can you find in the root project folder) just compiles the whole project.</p>
 
-<p>5- The script "run.sh" (which you find it in the root project folder) should be used to run some class. For example,</p>
+<p>5- The script "run.sh" (which you can find in the root project folder) should be used to run some class. For example,</p>
 
 <pre><code>    ./run.sh eu.amidst.core.examples.learning.ParallelMaximumLikelihoodExample
 </code></pre>
