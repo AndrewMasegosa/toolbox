@@ -1,4 +1,4 @@
-# toolbox
+# AMIDST Toolbox
 ====
 
 Analysis of data streams using expressive and flexible Bayesian networks
