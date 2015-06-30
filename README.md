@@ -30,7 +30,7 @@ which points to file "maven_startup.sh"
  Now after restarting the terminal, mvn should work.
 
 
-4- The script "compile.sh" (which can you find in the root project folder) just compiles the whole project.
+4- The script "compile.sh" (which you can find in the root project folder) just compiles the whole project.
 
 
 5- The script "run.sh" (which you can find in the root project folder) should be used to run some class. For example,
